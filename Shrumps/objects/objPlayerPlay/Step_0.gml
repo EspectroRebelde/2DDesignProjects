@@ -16,6 +16,8 @@ if (room = roomMain)
 	weapon = objBullet;
 else if (room = roomMain1)
 	weapon = objBullet1;
+else
+	weapon = objBullet;
 
 
 //----------------- Calculates the new velocities with acceleration

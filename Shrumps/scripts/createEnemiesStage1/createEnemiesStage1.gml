@@ -13,5 +13,5 @@ else if (randVal>=95 && randVal <101)
 
 //Crates the enemy
 createEnemy(enemyObj);
-////enemyObj.aircraftHealth = enemyObj.aircraftHealth*(argument0*0.5);
+enemyObj.aircraftHealth = enemyObj.aircraftHealth*(argument0*0.35);
 
