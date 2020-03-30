@@ -1,0 +1,131 @@
+{
+    "id": "3119e976-4b9e-439a-bb88-70e6727698c5",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "objEnemy",
+    "eventList": [
+        {
+            "id": "b8509536-2f16-4a73-bb7b-bf338a0ea551",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3119e976-4b9e-439a-bb88-70e6727698c5"
+        },
+        {
+            "id": "d433e920-3f12-4e98-8d70-268d95da4d06",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "3119e976-4b9e-439a-bb88-70e6727698c5"
+        },
+        {
+            "id": "87199c8a-2508-479c-9167-ae9a7880e103",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "3119e976-4b9e-439a-bb88-70e6727698c5"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": [
+        
+    ],
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "9a5a0ef1-985c-43da-9d42-9b637a2f0c00",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "aircraftHealth",
+            "varType": 0
+        },
+        {
+            "id": "52b7a902-fbd9-4868-807d-5e2066ccefdf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2.5",
+            "varName": "vel",
+            "varType": 0
+        },
+        {
+            "id": "6e7e025d-dc27-4ab1-9421-ea19ea27742b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "scoreShip",
+            "varType": 0
+        },
+        {
+            "id": "6a56c58c-2d35-4174-97f3-13e392003c00",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "30",
+            "varName": "damage",
+            "varType": 0
+        },
+        {
+            "id": "cd17a74f-5b93-4aad-9e7c-8f85b67e7337",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "powerUpDrop",
+            "varType": 3
+        }
+    ],
+    "solid": false,
+    "spriteId": "d62a378f-f577-4ed4-9d4a-92350ee8212a",
+    "visible": true
+}
